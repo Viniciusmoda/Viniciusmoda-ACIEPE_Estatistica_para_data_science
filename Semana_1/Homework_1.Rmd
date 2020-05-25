@@ -1,0 +1,34 @@
+---
+title: "Homework 1"
+author: "Vinicius de Mello Santiago Moda"
+date: "5/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(knitr)
+library(rmarkdown)
+library(dplyr)
+library(tidyverse)
+```
+
+Exercicio 1
+
+```{r}
+# operação 1:
+log(10,10)
+sqrt(145)
+ a = 1546-436
+log(a,sqrt(36))
+sqrt(log(356,10))
+(log(165)/(sqrt(45)*a))*100
+```
+
+Exercicio 2
+Para instalar o pacote no R utiliza-se o comando install.packages("UFSCar"), para carregar o pacote utiliza-se o comando library(UFSCar).Utiliza-se UFSCar.sorocaba() para acessar a função Sorocaba.Para conseguir descobrir como utilizar este comando dentro do R utiliza-se o comando help(package="UFSCar") e fora do R utiliza-se a documentção oficial do pacote
+
+Exercicio 3
+
