@@ -31,4 +31,46 @@ Exercicio 2
 Para instalar o pacote no R utiliza-se o comando install.packages("UFSCar"), para carregar o pacote utiliza-se o comando library(UFSCar).Utiliza-se UFSCar.sorocaba() para acessar a função Sorocaba.Para conseguir descobrir como utilizar este comando dentro do R utiliza-se o comando help(package="UFSCar") e fora do R utiliza-se a documentção oficial do pacote
 
 Exercicio 3
+Para criar um chunk de código no R markdown deve-se fazer  ```{r} e ```. As opções do knit podem ser encontradas na documentação oficial no site : https://yihui.org/knitr/options/.
+
+Exercicio 4:
+```{r} 
+vector_1 =c(1,2,3) 
+
+vector_2 = c("1,2,3")
+vector_2
+```
+
+Exercicio 5:
+```{r} 
+vector <-c(x<-1:1000)
+a <- seq(2,1000,2)  
+a
+```
+
+Exercicio 6:
+```{r} 
+golden_number = ((1+sqrt(5))/2)
+golden_number
+```
+
+Exercicio 7:
+A divisão de 1 por 0 retorna inf e a divisão de -1 por 0 retorna -inf
+
+Exercicio 8:
+```{r} 
+inf = (1/0)
+nan = 0/0
+null =c()
+na = NA
+na
+```
+Exercicio 9:
+O operador %/% retorna o inteiro da divisão.
+```{r} 
+5 + (3 * 10)%/%3== 15
+```
+
+
+
 
